@@ -15,7 +15,7 @@ window.Shop = {
             contentType: "application/json",
             data: JSON.stringify(body)
         }).done(function () {
-            console.log('success');
+            window.location.replace("cart.html");
         });
     },
 
